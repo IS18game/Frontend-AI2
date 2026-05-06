@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7fb;
+  color: #191919;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 16px 0 24px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #1f4bb8;
+  background: #e9efff;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e5e7ee;
+  border-radius: 12px;
+  padding: 16px;
+  display: grid;
+  gap: 12px;
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+}
+
+input,
+textarea,
+button {
+  font: inherit;
+}
+
+input,
+textarea {
+  border: 1px solid #c9cfdb;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+button {
+  width: fit-content;
+  border: 0;
+  border-radius: 8px;
+  padding: 9px 14px;
+  background: #1f4bb8;
+  color: #fff;
+  cursor: pointer;
+}
+
+.error {
+  color: #b00020;
+}
+
+.success {
+  color: #0f7a34;
+}
+
+.suggestions,
+.results {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.suggestions button {
+  background: transparent;
+  color: #1f4bb8;
+  padding: 0;
+  border: 0;
+  text-decoration: underline;
+}
+
+.link-button {
+  display: inline-block;
+  margin-top: 10px;
+  color: #1f4bb8;
+}
